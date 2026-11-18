@@ -21,11 +21,10 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Model artifacts (too large for GitHub)
-*.joblib
-*.pkl
-*.pickle
-
+# To this (comment them out):
+# *.joblib
+# *.pkl
+# *.pickle
 # Large data files (GitHub has a 100MB limit)
 *.csv
 
