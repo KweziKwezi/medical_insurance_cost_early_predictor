@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts (too large for GitHub)
+*.joblib
+*.pkl
+*.pickle
+
+# Large data files (GitHub has a 100MB limit)
+*.csv
+
+# Streamlit
+.streamlit/secrets.toml
